@@ -4,4 +4,4 @@
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Запускаем Python-скрипт с переданными аргументами
-python3 "$SCRIPT_DIR/backup_demon.py" "$@"
+python3 "$SCRIPT_DIR/main.py" "$@"
