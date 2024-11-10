@@ -1,0 +1,7 @@
+{
+    "interval": 300,
+    "backup_destination": "./backup/",
+    "items_to_backup": [
+
+    ]
+}
