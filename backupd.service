@@ -1,0 +1,13 @@
+[Unit]
+Description=Backup Daemon
+After=network.target
+
+[Service]
+Type=simple
+User=backupd
+Group=backupd
+ExecStart=/opt/backupd/backupd.py start
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
