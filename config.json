@@ -1,5 +1,5 @@
 {
     "interval": 500,
-    "backup_destination": "/Users/mansurzainullin/Projects/backup-demon/backup/",
+    "backup_destination": "/",
     "items_to_backup": []
 }
